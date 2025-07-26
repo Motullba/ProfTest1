@@ -1,0 +1,161 @@
+@import 'var';
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 575.98px) {
+  .main-text {
+    font-size: 2rem !important;
+
+  }
+  .secondary-text {
+    font-size: 1.75rem !important;
+
+  }
+  .lead {
+    font-size: 1.2rem !important;
+
+  }
+  .btn {
+    width: 10rem !important;
+
+  }
+    #counter {
+      .outline-circles-container{
+        flex-direction: row;
+        align-items: center;
+        .outline-circle {
+          width: $circle-size * 0.51 !important;
+          height: $circle-size * 0.51 !important;
+          .counter-number {
+            font-size: 1.5rem !important;
+          }
+          .counter-text {
+            font-size: 0.8rem !important;
+
+          }
+
+        }
+
+      }
+      a {
+        width: 10rem !important;
+        
+      }
+    }
+
+    #rating {
+    .comment-card{
+    text-align: start;
+    .comment-text {
+      color: $white;
+      font-size: 1rem !important;
+      line-height: 1.2 !important;
+      margin: 1rem 0;
+      font-style: italic;
+      
+    }
+    .right {
+      width: 1rem;
+      height: 1rem;
+
+    }
+    .left {
+      width: 1rem;
+      height: 1rem;
+
+    }
+
+    }
+    }
+  
+    #faq {
+      .accordion-button {
+        font-size: 1rem !important;
+        
+      }
+      .accordion-body {
+        .lead {
+          font-size: 0.8rem !important;
+          font-weight: 400 !important;
+
+        }
+
+      }
+    }
+    #about-body{
+      #about {
+        .logo-holder {
+          h3 {
+            font-size: 1.2rem;
+            span {  
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+
+    #footer {
+    .logo {
+      img {
+        display: flex;
+        justify-self: center !important;
+        align-self: center !important;
+      }
+
+  }
+
+  }
+
+  #blog{
+        .search-bar {
+        .form-control {
+            border: none !important;
+            &:focus {
+                box-shadow: none;
+                border-color: $black;
+            }
+        }
+
+        .btn {
+          border: none;
+        }
+    }
+
+    .latest, .latest-line{
+      display: none;
+    }
+
+  }
+}
+
+/* Small devices (portrait tablets, large phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .offcanvas {
+    height: 100vh !important;
+  
+  }
+
+  #footer {
+      .logo {
+        img {
+          width: 10rem !important;
+          height: 4rem !important;
+
+        }
+
+    }
+    .lead {
+      font-size: 0.7rem !important;
+    }
+
+  }
+
+}
+
+
+
+
+
