@@ -627,7 +627,7 @@
   font-weight: 600;
 }
 #contactUs .contact-form .btn-primary:hover {
-  background-color: #9f0014;
+  background-color: rgb(159, 0, 19.6857142857);
 }
 
 #about-body #about {
@@ -737,7 +737,7 @@
      object-position: center;
 }
 #blog .blog-posts .blog-card .card-body .category-badge {
-  background-color: #ff8695;
+  background-color: rgb(255, 133.5, 148.5428571429);
   color: #D2001A;
   font-weight: 600;
   padding: 0.25rem 0.75rem;
@@ -775,7 +775,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 0.875rem;
-  color: #a1a8ae;
+  color: rgb(161.1158798283, 167.8755364807, 173.8841201717);
 }
 #blog .blog-posts .blog-card .card-footer .author {
   display: flex;
@@ -806,6 +806,10 @@
   margin-top: -10rem;
 }
 
+#projects-body #showcase {
+  background-color: #121212;
+  height: 20vh;
+}
 #projects-body #visualIdentity {
   background-color: #f4f4f4;
   padding-top: 2rem;
@@ -897,6 +901,18 @@
   grid-row: span 2/span 2;
   grid-column-start: 7;
   grid-row-start: 8;
+}
+#projects-body #services {
+  direction: rtl;
+}
+#projects-body #other-projects .card {
+  cursor: pointer;
+}
+#projects-body #other-projects .card .card-body .card-title {
+  direction: rtl;
+}
+#projects-body #footer {
+  direction: rtl;
 }
 
 /* Extra small devices (phones, 576px and down) */

@@ -143,7 +143,6 @@
   overflow-wrap: anywhere; 
 }
 
-
 // Navbar
 
 #nav {
@@ -1010,6 +1009,11 @@
 }
 
 #projects-body {
+  #showcase {
+    background-color: $black;
+    height: 20vh;
+    
+  }
   #visualIdentity {
     background-color: #f4f4f4;
     padding-top: 2rem;
@@ -1116,6 +1120,32 @@
       }
 
     }
+
+  }
+
+  #services {
+    direction: rtl;
+  }
+  
+  #other-projects {
+    .card {
+      cursor: pointer;
+      .card-body {
+        .card-title {
+          direction: rtl;
+
+        }
+
+      }
+
+    }
+
+   
+    
+  }
+
+  #footer {
+    direction: rtl;
 
   }
 
